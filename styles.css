@@ -12,7 +12,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 header {
@@ -21,33 +21,27 @@ header {
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
-    color: #000;
+    margin-bottom: 16px;
 }
+
 
 address {
     font-style: normal;
-    text-align: left;
-    margin-left: 0;
-}
-
-address p {
-    margin-bottom: 5px;
 }
 
 address a {
-    color: #333;
+    color: inherit;
     text-decoration: none;
 }
 
 address a:hover {
-    text-decoration: underline;
+    text-decoration: underline; outline: none;
 }
 
 main {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 section {
@@ -60,16 +54,16 @@ section p {
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase;
-    border-bottom: 2px solid #333;
+    border-bottom: 1px solid #333;
     padding-bottom: 5px;
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -82,10 +76,6 @@ article p {
     margin-bottom: 10px;
 }
 
-article strong {
-    font-weight: bold;
-}
-
 ul {
     margin-left: 20px;
     margin-bottom: 15px;
@@ -95,10 +85,6 @@ li {
     margin-bottom: 5px;
 }
 
-span[style*="float: right"] {
-    font-weight: normal;
-    color: #666;
-}
 
 hr {
     border: none;
@@ -116,38 +102,28 @@ section:last-of-type li {
     margin-bottom: 8px;
 }
 
-.education-container {
+.info-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.education-item-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.info-main {
+    flex: 16px 16px 40px;
+    line-height: 1.2;
 }
 
-.education-item-right {
+.info-main p {
+    font-style: italic;
+    color: #636363;
+}
+
+.info-side {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
-
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-    
-    header h1 {
-        font-size: 2em;
-    }
-    
-    span[style*="float: right"] {
-        float: none !important;
-        display: block;
-        margin-top: 5px;
-    }
-
-
+    line-height: 1;
+    font-style: italic;
+    color:#636363;
+    font-size: 14px;
 }
