@@ -31,14 +31,10 @@ address {
     font-style: normal;
 }
 
-address a {
-    color: inherit;
-    text-decoration: none;
-}
-
 address a:hover {
     text-decoration: underline; outline: none;
 }
+
 
 main {
     margin-top: 10px;
