@@ -37,8 +37,6 @@ El **CSS** és senzill però funcional: marges fluids, amplada limitada del text
 ## Figma
 Enllaç al disseny: **https://www.figma.com/design/5ygwSnZoJH2hTtuFBdRT1A/CV?node-id=0-1&t=2mVF1eHaDLZZ5erI-1**.
 
-## Repositori GitHub / GitHub Pages
-URL Repositori Github: **https://github.com/hugoopeprekeos/HypermediaProject**.
-
-URL GitHub Pages: **https://hugoopeprekeos.github.io/HypermediaProject/**. 
+## GitHub Pages
+URL: **https://hugoopeprekeos.github.io/HypermediaProject/**. 
 
